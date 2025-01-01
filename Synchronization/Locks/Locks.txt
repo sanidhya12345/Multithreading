@@ -1,0 +1,7 @@
+there are two types of locks available:
+1.intrinsic
+2.explicit
+
+intrinsic: these are built into every object in java you dont see them but they are there when you use a synchronized keyword you are using these automatic locks.
+
+explicit: thesre are more advacned locks tou can contril yourself using the Lock clas from java.util.concurrent.locks you explicitly say when ot lock and unlock giving you more control over how and when people can write in the notebook.
